@@ -48,6 +48,7 @@ nav button {
     background-color: white;
     border: 1px solid white;
     color:#000000;
+    transition: filter 0.3s ease;
 }
 
 
@@ -95,8 +96,19 @@ ul.menu-right {
     letter-spacing: -4px;
 }
 
+input[type="search"] {
+    background-image: url(arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 42rem;
+    background-size: 25px;
+}
+input[type="search"]:hover {
+    background-image: url(arrowblue.png);
+    border-color: #4C5FD5;
+}
+
 input{
-    width: 60%;
+    width: 45rem !important;
     display: block;
     margin: 0 auto;
     width:50%;
