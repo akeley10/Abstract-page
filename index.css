@@ -18,6 +18,7 @@ button{
 }
 
 nav li{
+    font-family: 'GT America Standard', sans-serif;
     margin-top:30px;
     list-style: none;
 }
@@ -27,6 +28,7 @@ nav button {
 }
 
 #submit{
+    font-family: 'GT America Standard', sans-serif;
     border: 1px solid white;
     background-color: #191a1b;
     padding:10px;
@@ -35,6 +37,7 @@ nav button {
 }
 
 #sign{
+    font-family: 'GT America Standard', sans-serif;
     padding:10px;
     font-weight: 400;
     border: 1px solid #4C5FD5;
@@ -77,7 +80,7 @@ ul.menu-right {
 }
 
 #container{
-    height: 20rem;
+    height: 25rem;
     background-color: #dadbf1;
 }
 
@@ -93,9 +96,17 @@ ul.menu-right {
 }
 
 input{
+    width: 60%;
     display: block;
     margin: 0 auto;
     width:50%;
     height:50px;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 
+input#query {
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+}
