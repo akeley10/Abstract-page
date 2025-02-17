@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#icon{
+    margin-top:30px;
+    margin-left:100px;
+    margin-right:5px;
+    height:30px;
+}
+
+button{
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    color:white;
+}
+
+nav li{
+    margin-top:30px;
+    list-style: none;
+}
+
+nav button {
+    margin: 10px;
+}
+
+#submit{
+    border: 1px solid white;
+    background-color: #191a1b;
+    padding:10px;
+    font-weight: 400;
+    
+}
+
+#sign{
+    padding:10px;
+    font-weight: 400;
+    border: 1px solid #4C5FD5;
+    background-color: #4C5FD5;
+}
+
+#sign:hover{
+    background-color: white;
+    border: 1px solid white;
+    color:#000000;
+}
+
+
+
+nav#menu{
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.menu-left li{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+ul.menu-left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    font-weight: 400;
+}
+
+ul.menu-right {
+    margin-top: 10px;
+    width: 50%;
+}
+
+#container{
+    height: 20rem;
+    background-color: #dadbf1;
+}
+
+#container h2{
+    padding-top:100px;
+    padding-bottom:30px;
+    text-align: center;
+    font-family: 'GT America Standard', sans-serif;
+    color: #000000;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: -4px;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    width:50%;
+    height:50px;
+}
+
