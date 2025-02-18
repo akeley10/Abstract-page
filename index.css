@@ -133,13 +133,32 @@ input#query {
     padding: 10px;
 }
 
+#containerInformation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    grid-gap: 20px; /* Espacio entre las cajas */
+    text-align: center;
+    margin: 4rem;
+}
+
+#containerInformation img {
+    height:30%;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1000px) {
 
     #menuIcon {
         visibility: visible;
         height: 30px;
         width: 30px;
-        position: fixed;
+        position: absolute;
         top: 30px;
         right: 30px;
         z-index: 1000; 
@@ -205,21 +224,5 @@ input#query {
     input {
         width: 20rem !important;
     }
-    /*
-    #submit{
-        visibility:hidden;
-        
-    }
-    
-    #sign{
-        visibility:hidden;
-    }
-    #menuIcon{
-        visibility:visible;
-        height:30px;
-        filter: grayscale(100%);
-   
-    }
-        */
 
 }
