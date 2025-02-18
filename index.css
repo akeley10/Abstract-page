@@ -39,6 +39,7 @@ nav button {
 #sign{
     font-family: 'GT America Standard', sans-serif;
     padding:10px;
+    width:150px;
     font-weight: 400;
     border: 1px solid #4C5FD5;
     background-color: #4C5FD5;
