@@ -5,6 +5,7 @@
 
 body{
     font-family: 'GT America Standard', sans-serif;
+
 }
 
 #icon{
@@ -138,110 +139,61 @@ input#query {
 
 #containerInformation {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
-    grid-gap: 20px; /* Espacio entre las cajas */
-    margin: 4rem;
-}
-
-#containerInformation .item {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    margin-top: 5rem;
+  }
+  
+  .box {
     display: flex;
-    align-items: flex-start; /* Alinea la imagen y el texto al principio (arriba) */
-    gap: 10px; /* Espacio entre la imagen y el h4 */
-}
-
-#containerInformation img {
-    width: 10%;
-    position: relative;
-    /* right: 14rem; */
-    top: 4rem;
-    height: auto;
-    margin-right: 10px;
-    right: calc(14rem - 1vw);
-}
-
-#containerInformation .text-content {
-    display: flex;
-    flex-direction: column; /* Apila el texto verticalmente (h4 y p) */
-    justify-content: flex-start;
-}
-
-#containerInformation h4 {
-    font-size: 20px;
-    margin: 0;
-}
-
-#containerInformation p {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#containerInformation a{
-    color:#4C5FD5;
-}
-
-.box {
-    position: relative;
-    left: 3rem;
+    flex-direction: column;
     text-align: center;
-    margin: 1rem;
+    gap: 10px;
 }
+  
+  .box img {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px;
+    object-fit: contain; /* Asegura que la imagen no se distorsione */
+  }
 
-@media screen and (min-width: 300px) and (max-width: 769px){
-    .box {
-        position: relative;
-        left: 3rem;
-        text-align: left;
-        margin: 1rem;
-    }
+  .box h4{
+    font-size: 24px;
+  }
 
-    #containerInformation p {
-        width: auto;
-        margin: 0 auto;
-    }
-}
+  .box p{
+    font-size: 24px;
+    line-height: 32px;
+  }
 
-@media screen and (max-width: 770px) {
-
+  .box a{
+    color: #4C5FD5;
+  }
+  
+  @media (max-width: 768px) {
     #containerInformation {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr); /* Dos columnas de igual tamaño */
-        grid-gap: 20px; /* Espacio entre las cajas */
-        margin: 4rem;
+      grid-template-columns: 1fr; /* En pantallas pequeñas, solo una columna */
     }
-
+  
     .box {
-        position: relative;
-        left: 3rem;
-        text-align: center;
-        margin: 1rem;
+      flex-direction: column; /* En móviles, pon la imagen encima del texto */
+      text-align: center; /* Centra el texto */
+      align-items: center; /* Centra la imagen y el texto */
     }
-
-    #containerInformation img {
-        width: 20%;
-        margin-left: 100px;
-        position: relative;
-        top: 4rem;
-        height: auto;
-        margin-right: 10px;
-        right: calc(14rem - 1vw);
+  
+    .box img {
+      margin-bottom: 10px; /* Espacio entre la imagen y el texto */
     }
+  }
+  
+  
+  
 
 
-}
 
 
 @media screen and (max-width: 1000px) {
 
-    #containerInformation img {
-        width: 20%;
-        position: relative;
-        top: 4rem;
-        height: auto;
-        margin-right: 10px;
-        right: calc(14rem - 1vw);
-    }
-
-    
 
     #menuIcon {
         visibility: visible;
@@ -309,8 +261,6 @@ input#query {
         height: 30px;
     }
 
-
- 
 
 }
 
