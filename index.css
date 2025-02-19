@@ -3,6 +3,10 @@
     padding:0;
 }
 
+body{
+    font-family: 'GT America Standard', sans-serif;
+}
+
 #icon{
     margin-top:30px;
     margin-left:100px;
@@ -118,7 +122,6 @@ input[type="search"]:hover {
 }
 
 input{
-    width: 45rem !important;
     display: block;
     margin: 0 auto;
     width:50%;
@@ -172,10 +175,29 @@ input#query {
     margin: 0 auto;
 }
 
+#containerInformation a{
+    color:#4C5FD5;
+}
+
 .box {
     position: relative;
     left: 3rem;
     text-align: center;
+    margin: 1rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 769px){
+    .box {
+        position: relative;
+        left: 3rem;
+        text-align: left;
+        margin: 1rem;
+    }
+
+    #containerInformation p {
+        width: auto;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -190,7 +212,18 @@ input#query {
     .box {
         position: relative;
         left: 3rem;
- 
+        text-align: center;
+        margin: 1rem;
+    }
+
+    #containerInformation img {
+        width: 20%;
+        margin-left: 100px;
+        position: relative;
+        top: 4rem;
+        height: auto;
+        margin-right: 10px;
+        right: calc(14rem - 1vw);
     }
 
 
@@ -277,9 +310,7 @@ input#query {
     }
 
 
-    input {
-        width: 20rem !important;
-    }
+ 
 
 }
 
