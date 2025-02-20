@@ -175,7 +175,7 @@ input#query {
   @media (max-width: 768px) {
     #containerInformation {
         grid-template-columns: 1fr;
-        margin-left:2rem;
+        margin-left: 50px;
     }
   
     .box {
@@ -201,7 +201,7 @@ input#query {
         width: 30px;
         position: absolute;
         top: 30px;
-        right: 60px;
+        right: 20px;
         z-index: 1000; 
     }
     
