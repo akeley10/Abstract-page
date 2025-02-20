@@ -174,7 +174,8 @@ input#query {
   
   @media (max-width: 768px) {
     #containerInformation {
-      grid-template-columns: 1fr; /* En pantallas pequeñas, solo una columna */
+        grid-template-columns: 1fr;
+        width: 100%;
     }
   
     .box {
