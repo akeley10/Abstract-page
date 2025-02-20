@@ -178,9 +178,10 @@ input#query {
     }
   
     .box {
-      flex-direction: column; /* En móviles, pon la imagen encima del texto */
-      text-align: center; /* Centra el texto */
-      align-items: center; /* Centra la imagen y el texto */
+        flex-direction: column;
+        text-align: left;
+
+        width: 60%;
     }
   
     .box img {
@@ -188,10 +189,6 @@ input#query {
     }
   }
   
-  
-  
-
-
 
 
 @media screen and (max-width: 1000px) {
