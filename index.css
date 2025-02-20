@@ -227,7 +227,8 @@ input#query {
 
     .menu-visible #submit {
         visibility:visible;
-        width: 100%;
+        width: auto;
+        margin: 0 auto;
         border: none;
         background-color: #000000;
     
@@ -235,7 +236,8 @@ input#query {
 
     .menu-visible  #sign {
         visibility:visible;
-        width: 100%;
+        width: auto;
+        margin: 0 auto;
         border: none;
         background-color: #000000;
     }
