@@ -175,13 +175,14 @@ input#query {
   @media (max-width: 768px) {
     #containerInformation {
         grid-template-columns: 1fr;
+        margin: 0rem;
         margin-left: 50px;
+        margin-bottom: 10rem;
     }
   
     .box {
         flex-direction: column;
         text-align: left;
-
         width: 60%;
     }
   
