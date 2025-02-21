@@ -53,13 +53,13 @@ nav button {
     font-weight: 400;
     border: 1px solid #4C5FD5;
     background-color: #4C5FD5;
+    transition: fill 0.3s ease;
 }
 
 #sign:hover {
     background-color: white;
     border: 1px solid white;
     color: #000000;
-    transition: filter 0.3s ease;
 }
 
 nav#menu {
@@ -69,6 +69,12 @@ nav#menu {
     text-align: center;
     background-color: #000000;
     color: #fff;
+}
+
+.help-li{
+    padding: 2px 0 4px 0.8rem;
+    border-left: 2px solid #fff;
+    transition: all .3s;
 }
 
 .menu-left li {
@@ -82,6 +88,7 @@ ul.menu-left {
     flex-direction: row;
     width: 50%;
     font-weight: 400;
+    margin-bottom: 25px;
 }
 
 ul.menu-right {
