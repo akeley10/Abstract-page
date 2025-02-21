@@ -151,7 +151,7 @@ input#query {
     transition: fill 0.3s ease;
 }
 
-input#query:hover,#arrowIcon svg {
+input#query:hover,#arrowIcon svg:hover {
     fill: #4C5FD5;
     border-color: #4C5FD5;
  
