@@ -175,6 +175,7 @@ input#query {
   }
 
   .footer-list{
+        text-align: center;
         color:#fff;
         background-color: #000000;
         margin-top:10rem;
@@ -184,7 +185,8 @@ input#query {
    }
 
   .list {
-        margin: 2rem;
+        margin-top:2rem;
+        margin-bottom:2rem;
    }
 
    .footer-list h4{
