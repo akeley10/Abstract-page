@@ -305,15 +305,21 @@ input#query:hover,#arrowIcon svg:hover {
     }
 
     .menu-visible #submit {
+        padding-top: 30px;
         visibility: visible;
         width: auto;
         margin: 0 auto;
         border: none;
         background-color: #000000;
+        border-radius: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .5) !important;
+        width: 50%;
 
     }
 
     .menu-visible #sign {
+        padding-top: 30px;
+        padding-bottom: 30px;
         visibility: visible;
         width: auto;
         margin: 0 auto;
@@ -322,7 +328,8 @@ input#query:hover,#arrowIcon svg:hover {
     }
 
     .menu-visible ul.menu-right {
-        margin-top: 100px;
+        margin-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, .5);
         width: 100%;
         text-align: center;
         margin-right: 100px;
