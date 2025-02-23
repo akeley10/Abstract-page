@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'GT America Standard', sans-serif;
+
+}
+
+#icon {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 5px;
+    height: 30px;
+}
+
+#menuIcon {
+    visibility: hidden;
+    height: 30px;
+}
+
+button {
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+}
+
+nav li {
+    font-family: 'GT America Standard', sans-serif;
+    margin-top: 30px;
+    list-style: none;
+}
+
+nav button {
+    margin: 10px;
+}
+
+#submit {
+    font-family: 'GT America Standard', sans-serif;
+    border: 1px solid white;
+    background-color: #191a1b;
+    padding: 10px;
+    font-weight: 400;
+
+}
+
+#sign {
+    font-family: 'GT America Standard', sans-serif;
+    padding: 10px;
+    width: 150px;
+    font-weight: 400;
+    border: 1px solid #4C5FD5;
+    background-color: #4C5FD5;
+    transition: fill 0.3s ease;
+}
+
+#sign:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #000000;
+}
+
+nav#menu {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.help-li{
+    padding: 2px 0 4px 0.8rem;
+    border-left: 2px solid #fff;
+    transition: all .3s;
+}
+
+.menu-left li {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+ul.menu-left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+ul.menu-right {
+    margin-top: 10px;
+    width: 50%;
+    text-align: right;
+    margin-right: 100px;
+}
+
+#container{
+    margin:1rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    #menuIcon {
+        visibility: visible;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 1000;
+    }
+
+
+    #sign,
+    #submit {
+        visibility: hidden;
+    }
+
+    .menu-visible #menuIcon+#sign,
+    #submit {
+        display: block;
+    }
+
+    .menu-visible nav#menu {
+        font-size: 24px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #000000;
+        color: #fff;
+    }
+
+    .menu-visible #submit {
+        padding-top: 30px;
+        visibility: visible;
+        width: auto;
+        margin: 0 auto;
+        border: none;
+        background-color: #000000;
+        border-radius: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .5) !important;
+        width: 50%;
+
+    }
+
+    .menu-visible #sign {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        visibility: visible;
+        width: auto;
+        margin: 0 auto;
+        border: none;
+        background-color: #000000;
+    }
+
+    .menu-visible ul.menu-right {
+        margin-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, .5);
+        width: 100%;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+
+    ul.menu-right {
+        margin-top: -50px;
+        width: 50%;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    #icon {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 5px;
+        height: 30px;
+    }
+
+
+}
