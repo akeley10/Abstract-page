@@ -83,6 +83,7 @@ nav#menu {
     padding-left: 0.8rem;
     border-left: 2px solid #fff;
     transition: all .3s;
+    font-weight: 100;
 }
 
 .menu-left li {
@@ -115,6 +116,10 @@ ul.menu-right {
     line-height: 40px;
     padding-bottom: 10px;
     font-weight: 500;
+}
+
+div#search-results,div#search-information{
+    font-size: 20px;
 }
 
 div#search-results {
@@ -199,7 +204,6 @@ div#search-information {
         right: 20px;
         z-index: 1000;
     }
-
 
     #sign,
     #submit {
