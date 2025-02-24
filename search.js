@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded',()=>{
+const menuIcon = document.getElementById('menuIcon');
+
+menuIcon.addEventListener('click',()=>{
+        document.body.classList.toggle('menu-visible');
+})
 const search = document.getElementById('search-results');
 const searchInformation = document.getElementById('search-information');
 let params = new URLSearchParams(location.search);
