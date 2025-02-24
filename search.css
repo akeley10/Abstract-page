@@ -50,7 +50,7 @@ nav button {
     border: 1px solid white;
     background-color: #191a1b;
     padding: 10px;
-    font-weight: 400;
+    font-weight: 200;
 
 }
 
@@ -58,7 +58,7 @@ nav button {
     font-family: 'GT America Standard', sans-serif;
     padding: 10px;
     width: 150px;
-    font-weight: 400;
+    font-weight: 200;
     border: 1px solid #4C5FD5;
     background-color: #4C5FD5;
     transition: fill 0.3s ease;
@@ -80,7 +80,7 @@ nav#menu {
 }
 
 .help-li{
-    padding: 2px 0 4px 0.8rem;
+    padding-left: 0.8rem;
     border-left: 2px solid #fff;
     transition: all .3s;
 }
@@ -163,6 +163,7 @@ div#search-information {
 }
 
 @media (max-width: 768px) {
+
 
     .list {
         margin: 1rem;
