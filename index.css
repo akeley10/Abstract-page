@@ -141,6 +141,9 @@ input {
     /* Centra el contenedor */
 }
 
+form#formQuery {
+    margin: 10px;
+}
 
 input#query {
     display: flex;
@@ -241,6 +244,14 @@ input#query:hover,#arrowIcon svg:hover {
 
 @media (max-width: 768px) {
 
+    .menu-left li {
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 30px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+
     .list {
         margin: 1rem;
     }
@@ -316,6 +327,7 @@ input#query:hover,#arrowIcon svg:hover {
         border: none;
         background-color: #000000;
         border-radius: 0;
+        color: white;
         border-bottom: 1px solid rgba(255, 255, 255, .5) !important;
         width: 50%;
 
@@ -328,11 +340,12 @@ input#query:hover,#arrowIcon svg:hover {
         width: auto;
         margin: 0 auto;
         border: none;
+        color: white;
         background-color: #000000;
     }
 
     .menu-visible ul.menu-right {
-        margin-top: 20px;
+        margin-top: 0px;
         border-top: 1px solid rgba(255, 255, 255, .5);
         width: 100%;
         text-align: center;
@@ -341,7 +354,7 @@ input#query:hover,#arrowIcon svg:hover {
 
 
     ul.menu-right {
-        margin-top: -50px;
+        margin-top: -80px;
         width: 50%;
         text-align: center;
         margin-right: 100px;

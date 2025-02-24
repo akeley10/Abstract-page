@@ -164,6 +164,14 @@ div#search-information {
 
 @media (max-width: 768px) {
 
+    .menu-left li {
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 30px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+
 
     .list {
         margin: 1rem;
@@ -180,10 +188,7 @@ div#search-information {
 
 }
 
-
-
 @media screen and (max-width: 1000px) {
-
 
     #menuIcon {
         visibility: visible;
@@ -249,7 +254,7 @@ div#search-information {
 
 
     ul.menu-right {
-        margin-top: -50px;
+        margin-top: -80px;
         width: 50%;
         text-align: center;
         margin-right: 100px;
