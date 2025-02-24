@@ -76,7 +76,7 @@ nav#menu {
 }
 
 .help-li{
-    padding: 2px 0 4px 0.8rem;
+    padding-left: 0.8rem;
     border-left: 2px solid #fff;
     transition: all .3s;
 }
