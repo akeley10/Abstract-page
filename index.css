@@ -8,6 +8,10 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+  }
+
 #icon {
     margin-top: 30px;
     margin-left: 100px;

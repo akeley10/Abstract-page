@@ -8,6 +8,14 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
 #icon {
     margin-top: 30px;
     margin-left: 100px;
@@ -101,6 +109,77 @@ ul.menu-right {
 #container{
     margin:1rem;
 }
+
+#container h4{
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+div#search-results {
+    margin-top: 10px;
+
+}
+
+div#search-information {
+    margin-top: 10px;
+    
+}
+
+.search-results,.search-information{
+    color: #696B6C;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+.footer-list {
+    text-align: center;
+    color: #fff;
+    background-color: #000000;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.list {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-list h4 {
+    font-size: 24px;
+}
+
+.footer-list li {
+    padding: 10px;
+    list-style: none;
+}
+
+#footer-icon {
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .list {
+        margin: 1rem;
+    }
+
+    .footer-list {
+        color: #fff;
+        background-color: #000000;
+        margin-top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+}
+
+
 
 @media screen and (max-width: 1000px) {
 
